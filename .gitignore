@@ -1,3 +1,5 @@
 .env
 .virtual_env/
 .vscode/
+state.json
+logs/bets.json
