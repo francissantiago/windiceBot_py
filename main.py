@@ -441,7 +441,7 @@ def gameLogic(windice, state):
                 state["game_play_side"] = 0
                 state["nextbet"] = float(os.getenv("BASEBET_ANALISE"))
                 save_state(state)
-                # return True
+                return True
             else:
 
                 state["lose_count"] += 1
